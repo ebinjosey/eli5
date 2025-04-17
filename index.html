@@ -8,14 +8,21 @@
     <link rel="icon" href="assets/favicon.png" type="image/png">
 </head>
 <body>
+    <header>
+        <h1 class="website-subtitle">Explain Like I'm Five</h1>
+        <h3 class="website-subtitle">by Ebin</h3>
+        <a href="https://github.com/ebinjosey" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ebinjosey" target="_blank">LinkedIn</a>
+        <a href="#">Donations</a>
+    </header>
     <main>
-        <h1>Explain Like I'm Five</h1>
-        <h3>by Ebin</h3>
+        
         <p>A simple chatbot that helps you understand complex concepts in a way a 5-year-old could. Just type in any topic or idea, and it will break it down into easy, bite-sized explanations.</p>
         <form id="eli5-chat">
             <input type="text" id="user-input" placeholder="Ask something..." required>
             <button type="submit">Explain</button>
         </form>
+        <div id="response"></div>
     </main>
     <script src="script.js"></script>
 </body>
