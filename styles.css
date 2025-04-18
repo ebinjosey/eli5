@@ -147,6 +147,8 @@ body {
 }
 .footer-link:hover {
     color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 /* MOBILE RESPONSIVENESS */
