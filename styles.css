@@ -13,6 +13,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* HEADER */
 .site-header {
     display: flex;
     flex-direction: row;
@@ -42,7 +43,21 @@ body {
     color: var(--primary); 
   }
   
+/* CHAT CONTAINER */
 
+.main-chat-container {
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 8px 8px #000000;
+    max-height: 80vh;
+    width: 50%;
+    overflow-y: auto;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+
+
+/* FOOTER */
 .site-footer {
     display: flex;
     justify-content: space-around;
@@ -54,5 +69,5 @@ body {
     transition: color 0.3s ease;
 }
 .footer-link:hover {
-    color: var(--primary)
+    color: var(--primary);
 }
