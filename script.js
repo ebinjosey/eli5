@@ -14,7 +14,7 @@ sendBtn.addEventListener('click', () => {
     const message = userInput.value.trim();
     if (message) {
         displayMessage(message, 'user');
-        userInputvalue = '';
+        userInput.value = '';
         simulateBotResponse(message);
     }
 });
