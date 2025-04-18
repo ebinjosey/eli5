@@ -33,12 +33,26 @@ body {
 }
 
 .nav-link {
-    color: var(--black); /* or whatever color you want */
-    text-decoration: none; /* removes underline */
+    color: var(--black);
+    text-decoration: none;
     transition: color 0.3s ease;
   }
   
-  .nav-link:hover {
-    color: var(--primary); /* maybe your blue branding color */
+.nav-link:hover {
+    color: var(--primary); 
   }
   
+
+.site-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link {
+    color: var(--black);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-link:hover {
+    color: var(--primary)
+}
