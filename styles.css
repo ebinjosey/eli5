@@ -75,6 +75,10 @@ body {
     box-shadow: 2px 4px #000000;
     width: 100%;
 }
+#user-input:focus {
+    outline:none;
+}
+
 
 #send-btn {
     padding: 0.75rem 1.5rem;
@@ -83,6 +87,11 @@ body {
     border-radius: 25px;
     box-shadow: 2px 4px #000000;
     cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color:var(--white);
+    color: var(--black);
 }
 
 /* FOOTER */
