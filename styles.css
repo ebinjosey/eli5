@@ -113,6 +113,12 @@ body {
     margin-left: auto;
 }
 
+.bot-message {
+    background-color: var(--secondary);
+    color: var(--black);
+    align-self: flex-start;
+    margin-right: auto;
+}
 /* FOOTER */
 .site-footer {
     display: flex;
