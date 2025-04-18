@@ -106,6 +106,13 @@ body {
     line-height: 1;
 }
 
+.user-message {
+    background-color: var(--primary);
+    color: var(--white);
+    align-self: flex-end;
+    margin-left: auto;
+}
+
 /* FOOTER */
 .site-footer {
     display: flex;
