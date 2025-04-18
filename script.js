@@ -11,10 +11,10 @@ function displayMessage(message, sender = 'user') {
 }
 
 sendBtn.addEventListener('click', () => {
-    const message = userInput.ariaValueMax.trim();
+    const message = userInput.value.trim();
     if (message) {
         displayMessage(message, 'user');
-        userInputvalue = ''
+        userInputvalue = '';
         simulateBotResponse(message);
     }
 });
@@ -24,3 +24,10 @@ userInput.addEventListener('keydown', (e) => {
         sendBtn.click();
     }
 });
+
+function simulateBotResponse(userMessage) {
+    setTimeout(() => {
+        const botMessage = `You said "${userMessage}"`;
+        displayMessage(botMessage, 'bot');
+    }, 1000)
+}
