@@ -74,6 +74,14 @@ body {
     width: 100%;
 }
 
+#send-btn {
+    padding: 0.75rem 1.5rem;
+    background-color:var(--primary);
+    color: var(--white);
+    border-radius: 25px;
+    box-shadow: 2px 4px #000000;
+    cursor: pointer;
+}
 
 /* FOOTER */
 .site-footer {
