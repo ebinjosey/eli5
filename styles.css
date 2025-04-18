@@ -79,7 +79,6 @@ body {
     outline:none;
 }
 
-
 #send-btn {
     padding: 0.75rem 1.5rem;
     background-color:var(--primary);
@@ -95,6 +94,15 @@ body {
 }
 
 /* MESSAGE STYLING */
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-height: 80vh;
+    overflow-y: auto; 
+    gap: 1rem;
+}
 
 .user-message, .bot-message {
     max-width: 80%;
@@ -119,6 +127,11 @@ body {
     align-self: flex-start;
     margin-right: auto;
 }
+
+.user-message:hover, .bot-message:hover {
+    opacity: 0.85;
+}
+
 /* FOOTER */
 .site-footer {
     display: flex;
