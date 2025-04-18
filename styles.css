@@ -20,8 +20,25 @@ body {
     padding: 2rem 10rem;
 }
 
+.logo {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #5662F6;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
 }
+
+.nav-link {
+    color: var(--black); /* or whatever color you want */
+    text-decoration: none; /* removes underline */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--primary); /* maybe your blue branding color */
+  }
+  
