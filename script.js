@@ -18,3 +18,9 @@ sendBtn.addEventListener('click', () => {
         simulateBotResponse(message);
     }
 });
+
+userInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        sendBtn.click();
+    }
+});
