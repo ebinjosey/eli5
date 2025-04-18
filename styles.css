@@ -12,3 +12,8 @@ body {
     background-color: var(--secondary);
     font-family: 'Inter', sans-serif;
 }
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+}
