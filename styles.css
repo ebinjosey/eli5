@@ -66,6 +66,14 @@ body {
     margin-top: 1rem;
 }
 
+#user-input {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 4px #000000;
+    width: 100%;
+}
+
 
 /* FOOTER */
 .site-footer {
