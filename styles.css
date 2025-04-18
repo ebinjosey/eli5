@@ -94,6 +94,18 @@ body {
     color: var(--black);
 }
 
+/* MESSAGE STYLING */
+
+.user-message, .bot-message {
+    max-width: 80%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    line-height: 1;
+}
+
 /* FOOTER */
 .site-footer {
     display: flex;
