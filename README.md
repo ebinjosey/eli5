@@ -10,9 +10,9 @@ ExplainLikeImFive is a lightweight AI-powered web app that takes complex topics 
 
 ## Tech Stack
 
-Frontend: HTML, CSS, JavaScript (Vanilla)
-Backend: Node.js, Express
-AI Integration: OpenAI API (GPT-4)
-Design & Planning: Figma (for initial wireframes, mockups, and layout)
+- Frontend: HTML, CSS, JavaScript (Vanilla)
+- Backend: Node.js, Express
+- AI Integration: OpenAI API (GPT-4)
+- Design & Planning: Figma (for initial wireframes, mockups, and layout)
 
 
