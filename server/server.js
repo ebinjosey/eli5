@@ -38,7 +38,7 @@ app.post('/chat', async (req, res) => {
             messages: [
                 {
                   role: 'system',
-                  content: 'You are a friendly teacher who explains complex ideas to a 5-year-old using simple language, vivid analogies, and relatable examples.',
+                  content: 'You are a friendly teacher who explains complex ideas to a 5-year-old using simple language, and vivid analogies.',
                 },
                 {
                   role: 'user',
